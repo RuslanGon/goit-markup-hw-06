@@ -1,0 +1,159 @@
+@media (min-width: 1158px) {
+
+    section {
+		padding: 120px 0;
+	}
+
+    .container {
+		max-width: 1158px;
+		padding: 0 15px;
+	}
+
+    .header-logo {
+        display: none;
+    }
+    .header-nav {
+        display: flex;
+		align-items: center;
+		gap: 76px;
+    }
+
+    .header-nav  .header-logo {
+        display: inline;
+    }
+
+    .adress-list {
+        display: flex;
+		gap: 40px;
+    }
+
+    .contaks-item {
+        margin-bottom: 0;
+    }
+
+    .contaks-link {
+        padding: 24px 0;
+		font-size: 16px;
+    }
+    
+    .section-effect {
+        max-width: 1440px;
+		padding: 188px 0;
+    }
+
+    .requirements-list {
+        display: flex;
+		gap: 24px;
+    }
+
+    .requirements-item {
+        flex-basis: calc((100% - 72px) / 4);
+    }
+
+    .icon-bcg {
+        display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+		height: 112px;
+		background-color: #F4F4FD;
+		border: 1px solid #8E8F99;
+		border-radius: 4px;
+		margin-bottom: 8px;
+    }
+    .title-item-text {
+        font-size: 20px;
+		font-weight: 500;
+		line-height: 1.2;
+		text-transform: none;
+    }
+
+    .list-text {
+        font-weight: 400;
+    }
+
+    .our-team .container {
+        width: 1158px;
+		padding: 0 15px;
+    }
+
+    .team-list {
+        display: flex;
+		gap: 24px;
+		flex-wrap: nowrap;
+    }
+
+    .team-item {
+        flex-basis: calc((100% - 72px) / 4);
+    }
+
+
+
+
+    .social-links {
+		display: flex;
+		justify-content: center;
+		gap: 24px;
+		margin-top: 8px;
+	}
+
+	.social-links-item {
+		width: 40px;
+		height: 40px;
+	}
+
+
+
+
+    .portfolio-item {
+        position: relative;
+		width: calc((100% - 48px) / 3);
+		cursor: pointer;
+		transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .portfolio-item:hover {
+		box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+	}
+
+    .portfolio-item:hover p {
+		transform: translateY(0%);
+	}
+
+    .portfolio-images {
+        position: relative;
+		overflow: hidden;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
