@@ -25,6 +25,10 @@ img {
     display: block;
 }
 
+section {
+	padding: 96px 0;
+}
+
 header {
 border-bottom: 1px solid #e7e9fc
 }
@@ -172,7 +176,6 @@ header .container {
 .section-effect {
     background-color:#2E2F42;
     color: #FFF;
-    height: 600px;
     text-align: center ;
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
@@ -190,13 +193,13 @@ header .container {
 .main-effect {
     color: #FFF;
     text-align: center;
-    font-size: 56px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.07; 
-    letter-spacing: 1.12px;
-    max-width: 496px;
-    margin:auto auto 48px auto
+    line-height: 1.11; 
+    letter-spacing: 0.03em;
+    max-width: 156px;
+    margin:auto auto 72px auto
     
 }
 .button {
