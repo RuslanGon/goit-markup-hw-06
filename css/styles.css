@@ -823,43 +823,22 @@ margin-bottom: 8px;
 	background-color: #404BBF;
 }
 
-<!-- Menu window -->
-
-
-
-
-
-
-.menu-container {
-	transform: translateX(-100%);
-	display: none;
-  	top: 0;
-	left: 0;
-	position: fixed;
-	background-color: #ffffff;
-	padding-top: 72px;
-	padding-left: 16px;
-	padding-bottom: 40px;
-	width: 100%;
-	heigh: 100%;
-	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), display 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+                    Menu window 
 
 .menu-container  {
- position: fixed;
- width: 100%;
- height: 100%;
- top: 0;
- left: 0;
- padding-top: 72px;
- padding-left: 16px;
- padding-bottom: 40px;
- background-color: #ffffff;
+	transform: translateX(-100%); 
+ position: fixed; 
+ width: 100%; 
+ height: 100%; 
+ background-color: #ffffff; 
+ top: 0; 
+ left: 0; 
+ padding-top: 72px; 
+ padding-left: 16px; 
+ padding-bottom: 40px; 
  display: none;
+ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), display 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
-
-
-
 
 
 .menu-close {
