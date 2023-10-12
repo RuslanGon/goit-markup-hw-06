@@ -1,7 +1,7 @@
 @media (min-width: 768px) {
 
     .container {
-		max-width: 768px;
+		width: 768px;
 	}
 
     .menu-btn {
