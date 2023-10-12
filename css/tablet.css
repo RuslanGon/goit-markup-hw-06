@@ -8,8 +8,8 @@
 		display: none;
 	}
     
-    .header-nav,.adress {
-        display: inline-block;
+    .header-nav {
+       display: flex;
     }
 
     .nav-list {
