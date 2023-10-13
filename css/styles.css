@@ -103,6 +103,8 @@ header .container {
 }
 
 
+.header-nav .header-logo { display: none }
+
 .nav-list {
     display: flex;
     gap: 40px;
@@ -856,7 +858,7 @@ margin-bottom: 8px;
 	background-color: #404BBF;
 }
 
-                    /* Menu window  */
+/* <!-- Menu window --> */
 
 
 .menu-container {
