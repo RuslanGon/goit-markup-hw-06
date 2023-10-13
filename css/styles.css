@@ -467,13 +467,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 background-color: #2E2F42;
 padding: 96px 0;
 }
-.footer-container {
-    display: flex;
-	align-items: baseline;
-	width: 1158px;
-	margin: 0 auto;
-	padding: 0 15px;
-}
+
 
 .footer-logo {
 	display: inline-block;
@@ -551,7 +545,7 @@ margin-bottom: 72px;
 }
 
 footer .container {
-    display: flex;
+    
 } 
 
 .footer-social-links-item-link:hover,
@@ -564,7 +558,7 @@ footer .container {
 }
 
 .subscribe-form {
-	display: flex;
+	
 	gap: 24px;
 }
 
