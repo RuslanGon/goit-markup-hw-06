@@ -48,7 +48,7 @@
         font-size: 56px;
 		line-height: 1.07;
 		max-width: 496px;
-		margin-bottom: 36px;
+		margin-bottom: 48px;
     }
    
 
@@ -82,10 +82,9 @@
         font-size: 16px;
         
     }
-    .list-text {
+    .requirements-item .list-text {
         font-weight: 400;
-        
-    }
+      }
 
     .our-team .container {
         width: 1158px;

@@ -117,11 +117,14 @@
         line-height: 1.2;
         letter-spacing: 0.02em;
         margin-bottom: 8px;
+        text-align: left;
     }
+
+
 
     .list-text {
         font-size: 16px;
-        font-weight: 500;
+        font-weight: 400;
        
     }
 
@@ -131,10 +134,7 @@
 		padding: 0 16px;
     }
 
-    .main-info-list-item-descr .list-text {
-        font-size: 16px;
-        
-    }
+    
     .team-list {
         display: flex;
 		flex-wrap: wrap;
@@ -147,7 +147,9 @@
         flex-basis: calc((100% - 24px) / 2);
 		margin-bottom: 0;
     }
-
+    .requirements-item .list-text {
+    font-weight: 500;
+  }
     .portfolio-list {
         display: flex;
 		flex-wrap: wrap;
