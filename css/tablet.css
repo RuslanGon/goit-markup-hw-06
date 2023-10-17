@@ -147,6 +147,10 @@
         flex-basis: calc((100% - 24px) / 2);
 		margin-bottom: 0;
     }
+    .main-info-list-item-descr .title-item-text {
+        text-align: center;
+      }
+      
     .requirements-item .list-text {
     font-weight: 500;
   }
