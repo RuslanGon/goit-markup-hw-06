@@ -41,8 +41,16 @@
     
     .section-effect {
         max-width: 1440px;
-		padding: 188px 0;
+		padding: 188px 0; 
     }
+   
+    .main-effect {
+        font-size: 56px;
+		line-height: 1.07;
+		max-width: 496px;
+		margin-bottom: 36px;
+    }
+   
 
     .requirements-list {
         display: flex;
@@ -70,9 +78,13 @@
 		line-height: 1.2;
 		text-transform: none;
     }
-
+    .main-info-list-item-descr .list-text {
+        font-size: 16px;
+        
+    }
     .list-text {
         font-weight: 400;
+        
     }
 
     .our-team .container {

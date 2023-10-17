@@ -111,14 +111,30 @@
 	}
 
     .title-item-text {
-        
+        color: #2E2F42;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        margin-bottom: 8px;
     }
 
+    .list-text {
+        font-size: 16px;
+        font-weight: 500;
+       
+    }
+
+    
     .our-team .container {
         width: 584px;
 		padding: 0 16px;
     }
 
+    .main-info-list-item-descr .list-text {
+        font-size: 16px;
+        
+    }
     .team-list {
         display: flex;
 		flex-wrap: wrap;
